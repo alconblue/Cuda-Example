@@ -7,9 +7,10 @@
 #define WARP_SIZE 32 // # of threads that are executed together (constant valid on most hardware)
 
 /* Simple CUDA example showing:
-    1) how to sum the values of an in parallel 
+    1) how to sum the values of an array in parallel 
     2) how to add a scaler to values of an array in parallel
-
+    3) how to query GPU hardware
+    
    Compile with minimum archetecture specification of 30. Example:
        nvcc example.cu - o example -arch=sm_30
 
