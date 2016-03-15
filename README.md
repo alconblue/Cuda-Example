@@ -1,6 +1,8 @@
 # Cuda-Example
 1) Parallel sum reduction
+
 2) parallel addition of a scalar across an array
+
 3) GPU hardware query.
 
 No header file needed. 
